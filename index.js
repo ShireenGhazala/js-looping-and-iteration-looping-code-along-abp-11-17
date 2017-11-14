@@ -6,3 +6,12 @@ function printBadges(arrayNames){
   }
   return arrayNames;
 }
+function tailsNeverFails(){
+  return Math.round(Math.random());
+  tails=0;
+  while (tailsNeverFails){
+  tails=tails++;
+  }
+  return `You got ${tails} tails ina row!`;
+
+}
