@@ -8,8 +8,8 @@ function printBadges(arrayNames){
 }
 
 
-function coinToss(){
-  return Math.random()>=0.5;
+function tailsNeverFails(){
+  return Math.round(Math.random());
 }
 
   while (coinToss()) {
