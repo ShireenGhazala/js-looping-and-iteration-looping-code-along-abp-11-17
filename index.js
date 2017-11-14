@@ -11,3 +11,9 @@ function printBadges(arrayNames){
 function coinToss(){
   return Math.random() >= 0.5;
 }
+
+function tailsNeverFails(){
+  while (coinToss)){
+    
+  }
+}
