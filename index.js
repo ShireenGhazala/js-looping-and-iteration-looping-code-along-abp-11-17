@@ -9,7 +9,7 @@ function printBadges(arrayNames){
 
 
 function tailsNeverFails(){
-  return Math.round(Math.random());
+  return (Math.round(Math.random());
 }
 
   while (tailsNeverFails()) {
