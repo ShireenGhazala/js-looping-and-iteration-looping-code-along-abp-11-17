@@ -12,7 +12,7 @@ function tailsNeverFails(){
   return Math.round(Math.random());
 }
 
-  while (coinToss()) {
+  while (tailsNeverFails()) {
   tails=tails++;
   }
   return `You got ${tails} tails in a row!`;
