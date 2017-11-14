@@ -8,14 +8,14 @@ function printBadges(arrayNames){
 }
 
 
-function coinToss(){
+function coinToss() {
   return Math.random() >= 0.5;
 }
 
 function tailsNeverFails(){
   let counter=0;
-  while (coinToss()){
-    counter=counter++;
+  while(coinToss()){
+  counter++;
   }
   return `You got ${count} tails in a row!`
 }
