@@ -12,6 +12,6 @@ function tailsNeverFails(){
   while (tailsNeverFails){
   tails=tails++;
   }
-  return `You got ${tails} tails ina row!`;
+  return `You got ${tails} tails in a row!`;
 
 }
