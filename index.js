@@ -6,9 +6,10 @@ function printBadges(arrayNames){
   }
   return arrayNames;
 }
-tails=0;
-function tailsNeverFails(){
-  return Math.round(Math.random());
+
+
+function coinToss(){
+  return Math.random()>=0.5;
 
   while (tailsNeverFails()) {
   tails=tails++;
