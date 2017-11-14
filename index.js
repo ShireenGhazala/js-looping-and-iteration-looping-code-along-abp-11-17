@@ -8,12 +8,7 @@ function printBadges(arrayNames){
 }
 
 
-function tailsNeverFails(){
-  coinToss= (Math.round(Math.random());
-}
-
-  while (tailsNeverFails()) {
-  tails=tails++;
-  }
-  return `You got ${tails} tails in a row!`;
+function coinToss(){
+  return Math.random() >= 0.5;
+  
 }
