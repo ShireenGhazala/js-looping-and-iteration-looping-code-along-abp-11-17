@@ -13,7 +13,7 @@ function coinToss(){
 }
 
 function tailsNeverFails(){
-  count=0;
+  let count=0;
   while (coinToss()){
     console.log()
 
