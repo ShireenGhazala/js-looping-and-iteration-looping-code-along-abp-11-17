@@ -9,7 +9,7 @@ function printBadges(arrayNames){
 
 
 function tailsNeverFails(){
-  return (Math.round(Math.random());
+  coinToss= (Math.round(Math.random());
 }
 
   while (tailsNeverFails()) {
